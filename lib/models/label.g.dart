@@ -1,5 +1,3 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'label.dart';
 
 Label _$LabelFromJson(Map<String, dynamic> json) {

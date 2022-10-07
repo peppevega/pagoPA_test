@@ -8,7 +8,6 @@ class ItemNetworkImpl extends ItemNetwork {
   ItemNetworkImpl(this._dio) : super(_dio);
 
   //API call to fetch data
-
   @override
   Future<List<ItemResponseModel>> getItems() async {
     List<ItemResponseModel> model;

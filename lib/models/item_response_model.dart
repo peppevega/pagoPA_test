@@ -38,8 +38,6 @@ class ItemResponseModel {
       this.ownerIds,
       this.labels,
       this.ownedById});
-  /*factory ItemResponseModel.fromJson(Map<String, dynamic> json) =>
-      _$ItemResponseModelFromJson(json);*/
 
   factory ItemResponseModel.fromJson(Map<String, dynamic> data) =>
       _$ItemResponseModelFromJson(data);
